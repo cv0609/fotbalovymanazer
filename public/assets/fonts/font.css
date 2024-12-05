@@ -1,0 +1,67 @@
+/* hk-grotesk */
+
+@font-face {
+    font-family: "hk-grotesk";
+    src: url("./hk-grotesk");
+    font-weight: 100;
+  }
+  
+  @font-face {
+    font-family: "hk-grotesk";
+    src: url("./hk-grotesk/ex");
+    font-weight: 200;
+  }
+  
+  @font-face {
+    font-family: "hk-grotesk";
+    src: url("./hk-grotesk/HKGrotesk-Light.otf");
+    font-weight: 300;
+  }
+  
+  @font-face {
+    font-family: "hk-grotesk";
+    src: url("./hk-grotesk/HKGrotesk-Regular.otf");
+    font-weight: 400;
+  }
+  
+  @font-face {
+    font-family: "hk-grotesk";
+    src: url("./hk-grotesk/HKGrotesk-Medium.otf");
+    font-weight: 500;
+  }
+  
+  @font-face {
+    font-family: "hk-grotesk";
+    src: url("./hk-grotesk/HKGrotesk-SemiBold.otf");
+    font-weight: 600;
+  }
+  
+  @font-face {
+    font-family: "hk-grotesk";
+    src: url("./hk-grotesk/HKGrotesk-Bold.otf");
+    font-weight: 700;
+  }
+  
+  @font-face {
+    font-family: "hk-grotesk";
+    src: url("./hk-grotesk/HKGrotesk-ExtraBold.otf");
+    font-weight: 800;
+  }
+  
+  @font-face {
+    font-family: "hk-grotesk";
+    src: url("./hk-grotesk/HKGrotesk-Black.otf");
+    font-weight: 900;
+  } 
+  
+/* Neue-Machina fonts  */
+  @font-face {
+    font-family:"Neue-Machina";
+    src: url("./Neue-Machina/NeueMachina-Light.otf");
+    font-weight: 300;
+  }
+  @font-face {
+    font-family:"Neue-Machina";
+    src: url("./Neue-Machina/NeueMachina-Regular.otf");
+    font-weight: 400;
+  }

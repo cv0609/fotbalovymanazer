@@ -1,0 +1,1360 @@
+@media(max-width:1400px){
+  .banner_left {
+    padding-inline: 1rem;
+}
+.how-wrap {
+  width: 30%;
+}
+.header_logoLnk {
+  width: 280px;
+}
+.header_item {
+  padding-inline: 15px;
+}
+}
+/* media query 1200 */
+@media (max-width: 1200px) {
+  .choose_sec {
+    width: 30%;
+}
+  .header_navbar {
+    flex-direction: column;
+    width: 100%;
+} 
+.header_list {
+flex-direction: column;
+gap: 16px;
+align-items: start;
+padding-left: 0;
+margin-bottom: 0;
+padding-bottom: 5px;
+}
+.header_right {
+flex-direction: column;
+gap: 16px;
+}
+.humburger{
+  display: flex;
+}
+.header_navbar {
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  background-color: #292a7c;
+  position: fixed;
+  height: 100%;
+  top: 0;
+  z-index: 5;
+  padding: 16px;
+  right: 0;
+  box-shadow: rgba(0, 0, 0, 0.9) -4px 9px 25px -6px;
+  transform: translateX(100%);
+  max-width: 350px;
+  width: 100%;
+  transition: 0.3s ease-in-out;
+}
+.header_navbar.active {
+  right: 0;
+  transform: translateX(0%);
+}
+.close_menu {
+  display: flex;
+}
+.header_item{
+  padding-left: 0;
+}
+/* .banner_right {
+  height: 500px;
+} */
+.banner_heading {
+  font-size: 60px;
+  line-height: 100%;
+}
+.banner_btns {
+  margin-top:85px;
+}
+/* .welcome {
+  height: 600px;
+} */
+/* .singup_left {
+  height: 600px;
+} */
+.singup_tobar {
+  margin-bottom: 110px;
+}
+.leagues_heading {
+  font-size: 34px;
+  margin-bottom:48px;
+  margin-top: 16px;
+}
+/* .leagues_left {
+  height: 650px;
+} */
+/* === */
+.navbar-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  padding: 50px;
+  background-color: black;
+  transform: translateX(-100%);
+  transition: all 0.3s linear;
+  z-index: 100;
+  color: #fff;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.menuToggle .navbar-menu {
+  transform: translateX(0);
+  justify-content: flex-start;
+}
+
+.navbar-menu ul {
+  flex-direction: column;
+
+}
+
+.menu-btn {
+  display: block;
+}
+
+
+
+.close-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: block;
+  text-align: end;
+  z-index: 55;
+  font-size: 21px;
+  height: 20px;
+  width: 20px;
+}
+
+.banner-right {
+  height: 550px;
+}
+
+.home-banner-text h2 {
+  font-size: 35px;
+}
+
+.home-why-hockey-cards h3 {
+  font-size: 28px;
+}
+
+.from-our-user-card-top p {
+  max-width: 188px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.from-our-user-card-bottom p {
+  font-size: 18px;
+}
+.banner-content h1 {
+  font-size: 50px;
+}
+.pages-banner {
+  height: 500px;
+}
+.header-signup {
+  margin-left: 0;
+}
+
+.header-btns {
+  width: 100%;
+  max-width: 150px;
+  margin: 0 auto !important;
+  text-align: center;
+}
+.header-login {
+  margin-left: 0;
+  margin-top: 20px !important;
+}
+.site-header {
+  z-index: 50;
+}
+.modal-content {
+  z-index: 999;
+}
+.card {
+  width: auto;
+}
+.footer-pages .banner-text h1 {
+  font-size: 43px;
+}
+}
+/* media query 1024 */
+@media (max-width: 1024px) {
+  .banner_heading {
+    font-size: 50px;
+    margin-bottom: 16px;
+}
+.banner_desc {
+  font-size: 18px;
+}
+.banner_btns a {
+  width: 200px;
+}
+.banner_btns {
+  margin-top: 70px;
+}
+.welcome_heading {
+  font-size: 32px;
+  margin-bottom: 32px;
+}
+.welcome_desc {
+  font-size: 20px;
+}
+/* .welcome {
+  height: 550px;
+} */
+/* .singup_left {
+  height: 550px;
+} */
+.singup_tobar {
+  margin-bottom: 85px;
+}
+/* .leagues_left {
+  height: 600px;
+} */
+.leagues_heading {
+  font-size: 32px;
+  margin-bottom: 42px;
+  margin-top: 12px;
+}
+.banner-txt h1 {
+  font-size: 40px;
+}
+.sub-banner {
+  height: 450px;
+}
+.footer_icon {
+  width: 250px;
+}
+.sec_heading {
+  font-size: 30px;
+}
+}
+
+/* media query 991 */
+@media (max-width: 991px) {
+  body {
+    /* background-color: #f1f1f1; */
+}
+.footer {
+background-color: #000;
+}
+  .banner_heading, .banner_desc {
+    text-align: center;
+  }
+  .banner_btns {
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.singup_left {
+  width: 100%;
+}
+.singup_right {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.singup_wrapper {
+  flex-direction: column;
+  position: relative;
+}
+.welcome {
+  height: 600px;
+  margin:  50px 0;
+}
+section.choose {
+  margin: 50px 0;
+}
+.leagues {
+  margin-bottom: 50px;
+}
+.singup_left {
+  height: 600px;
+  position: relative;
+}
+.singup_left::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  opacity: 0.5;
+}
+.choose_sec {
+  width:47%;
+  margin-bottom: 1rem;
+}
+.singup_tobar {
+  margin-bottom: 75px;
+}
+.leagues_heading {
+  margin-bottom:48px;
+}
+.leagues_left {
+  height: 600px;
+  width: 100%;
+  position: relative;
+}
+.leagues_left::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  opacity: 0.7;
+  height: 100%;
+  width: 100%;
+}
+.leagues_wrapper {
+  flex-wrap: wrap;
+  position: relative;
+}
+.leagues_right {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.leagues_heading {
+  font-size: 32px;
+  margin-bottom: 36px;
+  margin-top: 12px;
+}
+  .footer_navbar {
+    width: 26%;
+  }
+
+  /* === */
+  .home-info-wrap-second-img1 {
+    height: 420px;
+    width: 380px;
+}
+
+.home-info-wrap-second-img2 {
+    height: 300px;
+    width: 300px;
+}
+
+.banner-right {
+    height: 500px;
+}
+
+.home-banner-text h2 {
+    font-size: 30px;
+}
+
+.home-banner-btn {
+    padding: 14px 30px;
+    font-size: 18px;
+}
+
+.home-info-wrap-first-content p {
+    font-size: 19px;
+}
+
+.home-why-hockey-section {
+    padding: 130px 0;
+}
+
+.home-why-hockey-cards h3 {
+    font-size: 18px;
+}
+
+.home-why-hockey-cards p {
+    font-size: 16px;
+}
+
+.home-why-hockey-heading {
+    font-size: 27px;
+}
+
+.our-users-heading {
+    font-size: 40px;
+}
+
+#counter .item {
+    padding: 15px 0px;
+}
+
+.newsletter-wrapper h3 {
+    font-size: 28px;
+}
+
+.newsletter-upper-image {
+    top: 20px;
+    width: 200px;
+    height: 40px;
+}
+
+.newsletter-lower-image {
+    bottom: 20px;
+    width: 200px;
+    height: 40px;
+}
+
+.from-our-user-cards {
+    padding: 0;
+}
+
+.from-our-user-card-top p {
+    color: #000;
+    max-width: 150px;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.from-our-user-card-bottom {
+    padding: 0 15px;
+}
+
+.from-our-user-card-bottom p {
+    font-size: 16px;
+    max-width: 110px;
+}
+.footer-blocks ul li a {
+    font-size: 17px;
+}
+.footer-socials p {
+    font-size: 17px;
+}
+.footer-disclaimer p {
+    font-size: 15px;
+}
+.ssl-container {
+    margin-top: 20px;
+}
+.banner-content h1 {
+    font-size: 45px;
+}
+.pages-banner {
+    height: 450px;
+}
+.how-to-play-cards-content p {
+    font-size: 16px;
+}
+.down-arrow-container {
+    height: 70px;
+}
+.banner-text h1 {
+    font-size: 45px;
+}
+.header-pages-cards-content p {
+    font-size: 15px;
+}
+.footer-pages .banner-text h1 {
+    font-size: 38px;
+}
+.footer-pages-content-grp h3 {
+    font-size: 27px;
+}
+
+.banner_wrapper {
+  position: relative;
+  flex-wrap: wrap;
+}
+.banner_right {
+  height: 700px;
+  width: 100%;
+  position: relative;
+}
+.banner_right:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  opacity: 0.5;
+}
+.banner_left {
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+}
+.how-wrap {
+  width: 45%;
+}
+
+
+
+
+
+
+
+
+}
+/* media query 768 */
+@media (max-width: 768px) {
+  .header_logoLnk {
+    height: 50px;
+    width: 280px;
+}
+  .btn {
+    font-size: 16px;
+    padding: 10px 24px
+}
+  .banner_btns {
+    margin-top:32px;
+}
+.banner_desc {
+  font-size: 18px;
+}
+.banner_heading {
+  font-size: 55px;
+}
+  .banner_right {
+    height: 600px;
+}
+  /* .banner_wrapper {
+    flex-direction: column;
+} */
+.banner_left {
+  width: 100%;
+}
+.banner_right {
+  width: 100%;
+}
+.welcome {
+  height: 450px;
+}
+.singup_left {
+  height: 600px;
+}
+section.choose {
+  height: 500px;
+}
+.choose_sec {
+  width:100%;
+  margin-bottom: 1rem;
+}
+.singup_tobar {
+  margin-bottom: 65px;
+}
+/* .leagues_left {
+  height: 500px;
+} */
+    .footer_left {
+    width: 40%;
+    order: 1;
+  }
+  .welcome_heading {
+    font-size: 28px;
+    margin-bottom: 28px;
+}
+.welcome_desc {
+  font-size: 18px;
+}
+.choose_heading {
+  font-size: 38px;
+  margin-bottom: 30px;
+}
+.choose_title {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+.choose_desc {
+  font-size: 18px;
+}
+.leagues_wrapper {
+  flex-direction: column;
+}
+.leagues_left {
+  width: 100%;
+}
+.leagues_right {
+  width: 100%;
+}
+.leagues_inner {
+ flex-direction: row;
+ flex-wrap: wrap;
+ gap: 16px;
+}
+
+.leagues_heading {
+  font-size: 28px;
+  margin-bottom: 24px;
+  margin-top: 12px;
+}
+  .footer_icon {
+    width: 280px;
+  }
+  .footer_content {
+    padding-block: 38px;
+  }
+  .footer_navbar {
+    width: 40%;
+    order: 4;
+  }
+  .footer_socials {
+    width: 40%;
+    order: 2;
+  }
+  .social_link {
+    width: 24px;
+    height: 24px;
+  }
+  .how-wrap {
+    width: 100%;
+}
+.contact_left {
+  width: 100%;
+}
+.contact_right {
+  width: 100%;
+  margin-top: 50px;
+}
+.contact_inner {
+
+  flex-wrap: wrap;
+}
+}
+@media screen and (max-width:767px) {
+  .contact_rightImg {
+    height: 350px;
+    margin-bottom: 50px;
+}
+  .banner .row {
+      flex-direction: column-reverse;
+  }
+
+  .home-banner-text {
+      padding: 30px 0;
+  }
+
+  .home-banner-text h2 {
+      font-size: 35px;
+  }
+
+  .home-banner-btn {
+      padding: 13px 30px;
+      font-size: 17px;
+  }
+
+  .home-about-info-wrap .row {
+      flex-direction: column-reverse;
+  }
+
+  .home-info-wrap-first-content p {
+      font-size: 18px;
+  }
+
+  .home-choices-line {
+      left: 120px;
+  }
+
+  .home-choices-line {
+      display: none;
+  }
+
+  .home-choices-cards-image {
+      height: 400px;
+      width: 400px;
+  }
+
+  .home-choices-card {
+      margin-bottom: 40px;
+  }
+
+  .home-why-hockey-cards h3 {
+      font-size: 24px;
+  }
+
+  .home-why-hockey-cards {
+      margin-bottom: 40px;
+      max-width: 100%;
+      min-height: 170px;
+  }
+
+  .our-users-heading {
+      font-size: 30px;
+  }
+
+  #counter .item {
+      width: 100%;
+      padding: 15px 10px;
+  }
+
+  .newsletter-upper-image {
+      top: 20px;
+  }
+
+  .newsletter-lower-image {
+      bottom: 20px;
+  }
+
+  .newsletter-wrapper h3 {
+      font-size: 26px;
+  }
+
+  .newsletter-input {
+      width: 80%;
+      font-size: 15px;
+      padding: 11px 25px;
+      border-radius: 25px;
+      margin-bottom: 15px;
+  }
+
+  .butn {
+      padding: 12px 25px;
+      border-radius: 25px;
+  }
+
+  .our-user-heading {
+      font-size: 33px;
+  }
+
+  .from-users-heading-wrap {
+      max-width: 300px;
+  }
+
+  .from-our-user-cards {
+      background-position: center;
+  }
+
+  .from-our-user-card-top p {
+      max-width: 170px;
+      padding: 0 17px;
+      font-weight: 500;
+      font-size: 14px;
+  }
+
+  .from-our-user-card-bottom p {
+      margin-right: 20px;
+      font-size: 16px;
+  }
+  .footer-menus h3 {
+      font-size: 27px;
+  }
+  .footer-blocks ul li a {
+      font-size: 18px;
+  }
+  .footer-socials h3 {
+      font-size: 26px;
+  }
+  .footer-socials p {
+      font-size: 18px;
+  }
+  .footer-disclaimer p {
+      font-size: 16px;
+  }
+  .ssl-container {
+      margin-top: 25px;
+  }
+  .footer-menus ,.footer-socials {
+      width: 50%;
+  }
+  .footer-disclaimer {
+      width: 100%;
+      padding: 15px;
+  }
+  .banner-content h1 {
+      font-size: 40px;
+  }
+  .how-to-play {
+      background-position: 0 0;
+  }
+  .pages-banner {
+      height: 400px;
+  }
+  .how-to-play-cards-content p {
+      font-size: 17px;
+  }
+  .how-to-play-card-image {
+      height: 350px;
+      margin-bottom: 30px;
+  }
+  .banner-text h1 {
+      font-size: 40px;
+  }
+  .header-pages-cards-content {
+      padding: 30px 0;
+  }
+  .header-pages-cards-image {
+      height: 350px;
+  }
+  .after-banner-text p {
+      font-size: 16px;
+  }
+  .footer-pages .banner-text h1 {
+      font-size: 33px;
+  }
+  .footer-pages-content-grp {
+      padding: 20px 0;
+  }
+  .footer-pages-content-grp p {
+      font-size: 16px;
+  }
+  .footer-pages-content-grp h3 {
+      font-size: 24px;
+  }
+
+}
+/* media query 575 */
+@media (max-width: 575px) {
+  .header_navbar {
+    max-width: 100%;
+}
+  
+  .banner_btns {
+    gap: 1rem;
+}
+  .banner_heading {
+    font-size: 32px;
+  }
+  .banner_btns {
+    margin-top:20px;
+}
+  .banner_right {
+    height: 550px;
+}
+.singup_email {
+width: 100%;
+gap: 4px;
+}
+.welcome_heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.choose_title {
+  margin-bottom: 8px;
+}
+.choose_heading {
+  font-size: 32px;
+  margin-bottom: 24px;
+}
+.choose_desc {
+  font-size: 16px;
+}
+.singup_tobar {
+  margin-bottom: 50px;
+}
+.leagues_left {
+  height: 600px;
+}
+  .footer_title {
+    font-size: 22px;
+}
+/* .welcome {
+  height: 400px;
+} */
+.singup_left {
+  height: 800px;
+}
+section.choose {
+  height: 600px;
+}
+.welcome_desc {
+  font-size: 16px;
+}
+.leagues_inner {
+  gap: 12px;
+ }
+  .footer_left {
+    width: 100%;
+  }
+  .footer_navbar {
+    width: 100%;
+    order: 4;
+  }
+  .footer_content {
+    padding-block: 24px;
+  }
+  .footer_socials {
+    width: 100%;
+    order: 4;
+  }
+  .footer_social {
+    padding: 4px;
+  }
+  .form_bg .container .form_container {
+    padding: 30px 14px;
+}
+.navbar {
+    padding: 20px 0;
+}
+
+.banner-right {
+    height: 360px;
+}
+
+.home-banner-text h2 {
+    font-size: 25px;
+}
+
+.home-banner-text h2 {
+    font-size: 30px;
+}
+
+.home-banner-btn {
+    padding: 12px 30px;
+    font-size: 16px;
+}
+
+.home-info-wrap-pattern1 {
+    width: 120px;
+}
+
+.home-info-wrap-first-content p {
+    font-size: 17px;
+}
+
+.home-choices-wrap h2 {
+    max-width: 350px;
+    font-size: 30px;
+}
+
+.home-why-hockey-section {
+    padding: 90px 0;
+}
+
+.home-why-hockey-heading1 {
+    padding: 11px 10px;
+}
+
+.home-why-hockey-heading {
+    font-size: 25px;
+}
+
+.home-why-hockey-heading2 {
+    padding: 10px;
+}
+
+.home-why-hockey-heading-wrap {
+    max-width: 300px;
+}
+
+.home-why-hockey-cards h3 {
+    font-size: 22px;
+}
+
+.home-why-hockey-cards p {
+    font-size: 17px;
+    text-align: center;
+}
+
+.home-why-hockey-cards {
+    margin-bottom: 40px;
+}
+
+.home-why-hockey-cards {
+    min-height: 190px;
+}
+
+.our-users-heading {
+    font-size: 25px;
+}
+
+#counter .item .count,
+.non-counter,
+.item-wrapper span {
+    font-size: 30px;
+}
+
+#counter .item p {
+    font-size: 17px;
+}
+
+.newsletter-upper-image {
+    top: 20px;
+    width: 110px;
+    height: 40px;
+}
+
+.newsletter-lower-image {
+    bottom: 20px;
+    width: 110px;
+    height: 40px;
+}
+
+.newsletter-wrapper h3 {
+    font-size: 24px;
+}
+
+.butn {
+    padding: 11px 25px;
+    font-size: 15px;
+}
+
+.newsletter-input {
+    width: 85%;
+}
+
+.our-user-heading1 {
+    padding: 4px;
+}
+
+.our-user-heading {
+    font-size: 27px;
+}
+
+.from-our-user-card-bottom {
+    padding: 0px 10px;
+}
+
+.from-our-user-card-top p {
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.from-our-user-card-bottom p {
+    margin-right: 40px;
+}
+
+.from-our-user-card-top p {
+    max-width: 235px;
+    padding: 0 17px;
+}
+
+.from-our-user-cards {
+    height: 470px;
+}
+.footer-blocks {
+    width: 100%;
+}
+.footer-menus h3 {
+    font-size: 25px;
+}
+.footer-blocks ul li a {
+    font-size: 17px;
+}
+.footer-socials h3 {
+    font-size: 24px;
+}
+.footer-socials p {
+    font-size: 17px;
+}
+.footer-disclaimer p {
+    font-size: 15px;
+}
+.copyright-wrap p {
+    font-size: 15px;
+}
+.banner-content h1 {
+    font-size: 35px;
+}
+.pages-banner {
+    height: 350px;
+}
+.how-to-play-cards-content h3 {
+    font-size: 22px;
+}
+.how-to-play-cards-content p {
+    font-size: 16px;
+}
+.down-arrow-container {
+    height: 60px;
+}
+.how-to-play-card-image {
+    height: 300px;
+    margin-bottom: 30px;
+}
+.banner-text h1 {
+    font-size: 35px;
+}
+.header-pages-cards-image {
+    height: 300px;
+}
+.header-pages-cards-content p {
+    font-size: 16px;
+}
+.header-pages-cards h3 {
+    font-size: 22px;
+    line-height: 1.4;
+}
+.footer-pages .banner-text h1 {
+    font-size: 28px;
+}
+.footer-pages-wrap {
+    padding: 30px 15px;
+}
+.footer-pages-content-grp p {
+    font-size: 15px;
+}
+.footer-pages-content-grp h3 {
+    font-size: 21px;
+}
+    /* tables css start */
+    .leagues-table td {
+        padding: 18px 18px !important;
+    }
+    .ice-leagues thead tr th {
+        padding: 18px 18px;
+    }
+    .leagues-table td h6 {
+        font-size: 14px;
+    }
+    /* tables css end*/
+    .how-text h3 {
+      font-size: 22px;
+  }
+  .how-left {
+    height: 250px;
+}
+.how-main {
+  padding: 50px 0;
+}
+.header_list {
+  width: 100%;
+  align-items: center;
+  margin-top: 40px;
+}
+.header_right {
+margin: 0 auto;
+}
+}
+
+/* media 480 */
+@media screen and (max-width:480px) {
+  .site-logo a {
+      height: 50px;
+      width: 200px;
+  }
+
+  .home-info-wrap-second-img2 {
+      height: 250px;
+      width: 250px;
+      position: absolute;
+      top: 20px;
+      left: 20px;
+  }
+
+  .home-info-wrap-second-img1 {
+      height: 350px;
+      width: 300px;
+  }
+
+  .banner-right {
+      height: 300px;
+  }
+
+  .home-banner-text h2 {
+      font-size: 22px;
+  }
+
+  .home-banner-btn {
+      padding: 11px 30px;
+      font-size: 15px;
+  }
+
+  .home-info-wrap-first-content p {
+      font-size: 16px;
+  }
+
+  .home-choices-wrap h2 {
+      font-size: 22px;
+  }
+
+  .home-choices-cards-info h3 {
+      font-size: 22px;
+  }
+
+  .home-choices-cards-image {
+      height: 260px;
+      width: 260px;
+  }
+
+  .home-why-hockey-cards h3 {
+      font-size: 20px;
+  }
+
+  .home-why-hockey-cards {
+      min-height: 210px;
+  }
+
+  .home-why-hockey-section {
+      padding: 50px 0;
+  }
+
+  .our-users-heading {
+      font-size: 20px;
+  }
+
+  .newsletter-wrapper h3 {
+      font-size: 22px;
+  }
+
+  .from-users-heading-wrap {
+      max-width: 280px;
+  }
+
+  .from-our-user-card-top {
+      padding: 10px;
+  }
+
+  .from-our-user-card-top p {
+      font-size: 14px;
+      max-width: 190px;
+      font-weight: 600;
+      padding: 0 15px;
+  }
+
+  .from-our-user-card-bottom p {
+      font-size: 16px;
+  }
+
+  .from-our-user-cards {
+      height: 470px;
+  }
+
+  .from-our-user-cards:nth-child(2) {
+      height: 650px;
+  }
+  .footer-blocks ul li a {
+      font-size: 16px;
+  }
+  .footer-socials h3 {
+      font-size: 22px;
+  }
+  .footer-socials p {
+      font-size: 16px;
+  }
+  .footer-disclaimer p {
+      font-size: 14px;
+  }
+  .social-icons {
+      height: 40px;
+      width: 40px;
+  }
+  .social-ikons {
+      width: 18px;
+      height: 18px;
+  }
+  .copyright-wrap p {
+      font-size: 14px;
+  }
+  .banner-content h1 {
+      font-size: 30px;
+  }
+  .pages-banner {
+      height: 300px;
+  }
+  .after-banner-text p {
+      font-size: 14px;
+  }
+  .how-to-play-cards-content h3 {
+      font-size: 20px;
+  }
+  .how-to-play-card-image {
+      height: 250px;
+      margin-bottom: 30px;
+  }
+  .home-list {
+      padding-right: 10px;
+  }
+  .inline-list h3 a, .inline-list h3 {
+      font-size: 20px;
+  }
+  .banner-text h1 {
+      font-size: 30px;
+  }
+  .header-pages-cards {
+      padding: 0;
+  }
+  .header-pages-cards-image {
+      height: 250px;
+  }
+  .header-pages-cards h3 {
+      font-size: 20px;
+      line-height: 1.4;
+  }
+  .card_title h2 {
+      font-size: 22px;
+  }
+  #contact button[type="submit"] {
+      padding: 11px 30px;
+      font-size: 15px;
+  }
+  .footer-pages .banner-text h1 {
+      font-size: 23px;
+  }
+  .footer-pages-content-grp h3 {
+      font-size: 18px;
+  }
+
+      /* tables css start */
+      .leagues-table td {
+          padding: 15px 15px !important;
+      }
+      .ice-leagues thead tr th {
+          padding: 15px 15px;
+      }
+      .leagues-table td h6 {
+          font-size: 14px;
+      }
+      /* tables css end*/
+      .singup_email {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .singup_input {
+      border-radius: 50px  50px;
+  }
+  .submit_btn {
+    width: 150px;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+ul.footer_list li {
+  text-align: center;
+}
+.footer_title {
+  text-align: center;
+}
+.footer_socialsWrapp {
+  justify-content: center;
+}
+.footer_btmSec {
+  flex-direction: column-reverse;
+}
+.footer_copyRight p {
+  text-align: center;
+}
+.how-wrap {
+  margin: 20px 0px;
+}
+.footer_SSl {
+  margin-bottom: 10px;
+}
+}
+@media(max-width:375px){
+  .header_logoLnk {
+    width: 220px;
+}
+.welcome {
+  height: 500px;
+}
+.singup_left {
+  height: 850px;
+}
+.singup_heading {
+  font-size: 25px;
+}
+.singup_form {
+  padding: 10px;
+}
+section.choose {
+  height: 700px;
+}
+.banner-txt h1 {
+  font-size: 35px;
+}
+}
