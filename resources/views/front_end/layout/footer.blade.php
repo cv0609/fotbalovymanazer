@@ -61,7 +61,7 @@
                 </li>
               </ul>
             </div>
-            <div class="footer_socials">
+            <!-- <div class="footer_socials">
               <h4 class="footer_title">Sociální odkaz</h4>
               <div class="footer_socialsWrapp">
                 <div class="footer_social">
@@ -77,7 +77,7 @@
                   <a href="#"  target="_blank" class="social_link social_link--linkedin"></a>
                 </div>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
         <div class="footer_btm">
