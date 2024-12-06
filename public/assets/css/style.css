@@ -1254,6 +1254,7 @@ a.para {
     background: #fff;
     border-collapse: collapse;
     border-spacing: 0;
+    position: relative;
 }
 
 .scoccer tbody tr td {
@@ -1453,7 +1454,7 @@ a.para {
 }
 
 .matches-table th:first-child {
-    /* text-align: left; */
+    text-align: center;
 }
 
 .matches-table th {
