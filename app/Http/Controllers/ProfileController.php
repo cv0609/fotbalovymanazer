@@ -100,9 +100,8 @@ class ProfileController extends Controller
         ]);
 
         $user = Auth::user();
-
-        if ($request->hasFile('profile_picture')) {
-            dd("OK");
+    
+        if ($request->file('profile_picture')) {
             $file = $request->file('profile_picture');
             $filename = time() . '.' . $file->getClientOriginalExtension();
             $path = 'assets/images/'.$filename;
