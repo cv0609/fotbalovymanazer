@@ -2072,7 +2072,7 @@ td.match-team-logo a {
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 6px;
     left: 0;
-    top: 110%;
+    top: 130%;
     display: none;
 }
 
@@ -2174,6 +2174,7 @@ div#mySidenavs {
 .dropdown ul {
     display: block !important;
     padding-left: 0;
+    margin-bottom: 0;
 }
 
 .dropdown ul li a {
@@ -2877,5 +2878,10 @@ body .scoccer-inner-content {
 }
 .footer_wrapper ul {
     padding-left: 0;
+}
+
+.sub_title {
+    font-size: 18px;
+    color: #ff849a;
 }
 /* new css  end */
