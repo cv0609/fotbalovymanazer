@@ -173,7 +173,7 @@
                         <p class="sec_desc">Máte-li jakékoli otázky ohledně
                             těchto zásad nebo zpracování vašich údajů,
                             kontaktujte nás na:</p>
-                        <a href="mailto:info@fotbalovymanazer.com">📧
+                        <a class="sec_email" href="mailto:info@fotbalovymanazer.com">📧
                             info@fotbalovymanazer.com</a>
                         <p class="sec_desc">Děkujeme, že důvěřujete
                             platformě Fotbalový Manažer!</p>

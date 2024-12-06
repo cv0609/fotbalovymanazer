@@ -50,19 +50,17 @@
                     <div class="dropdown">
                         <ul>
                             <li><a href="{{ route('profile.profile') }}">
-                                    <div class="profile-dropdown-options profile-image-dropdown"></div>Mon
-                                    profil
+                                    <div class="profile-dropdown-options profile-image-dropdown"></div>Můj profil
                                 </a>
                             </li>
                             <li>
                                 <a href="{{ route('profile.matches') }}">
-                                    <div class="profile-dropdown-options profile-image-stadium"></div>Mes matchs
+                                    <div class="profile-dropdown-options profile-image-stadium"></div>Moje zápasy
                                 </a>
                             </li>
                             <li>
                                 <a href="{{ route('logout') }}">
-                                    <div class="profile-dropdown-options profile-image-logout"></div>Se
-                                    déconnecter
+                                    <div class="profile-dropdown-options profile-image-logout"></div>Odhlaste se
                                 </a>
                             </li>
                         </ul>

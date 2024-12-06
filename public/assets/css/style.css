@@ -1285,6 +1285,7 @@ a.para {
     vertical-align: middle;
     background: #f8f9fa;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .team-view-page .scoccer thead tr th:nth-child(2),
@@ -1452,7 +1453,7 @@ a.para {
 }
 
 .matches-table th:first-child {
-    text-align: left;
+    /* text-align: left; */
 }
 
 .matches-table th {
@@ -1717,9 +1718,12 @@ td.player-dp img {
 }
 
 .matches-table td.match-team-logo:last-child h6 {
-    text-align: right;
+    text-align: end;
 }
-
+.matches-table td.match-team-logo:last-child img {
+    margin-left: auto;
+    display: flex;
+}
 .matches-table td.match-team-logo h6 {
     margin: 10px 0 0 0;
     font-weight: 600;
@@ -2344,9 +2348,9 @@ span.edit_pan i {
     width: auto;
     padding: 11px 44px;
     display: inline-block;
-    margin-left: 1rem;
+    /* margin-left: 1rem; */
     margin-right: 1rem;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     background-color: #000;
     border: none;
     outline: none;
