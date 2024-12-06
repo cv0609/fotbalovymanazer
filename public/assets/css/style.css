@@ -2875,4 +2875,7 @@ section.scoccer span.alert.alert-success {
 body .scoccer-inner-content {
     border-radius: 0 !important;
 }
+.footer_wrapper ul {
+    padding-left: 0;
+}
 /* new css  end */
