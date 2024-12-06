@@ -2,12 +2,13 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Soccer Spotlight</title>
+    <title>fotbalovymanazer</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="{{ asset('assets/images/favicon.png') }}" rel="icon">
+    <link rel="icon" type="image/x-icon" href="{{ asset('assets/images/favicon.png') }}" >
+
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
