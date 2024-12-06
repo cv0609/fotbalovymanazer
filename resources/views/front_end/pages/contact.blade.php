@@ -12,7 +12,7 @@
                 <div class="contact_left">
                     <h3 class="sec_title">Kontaktní formulář</h3>
                     <div class="form_rest">
-                        <form action="{{ route('contact.save') }}" method="POST" class="mt-60">
+                        <form action="{{ route('contact.save') }}" method="post" id="contactForm" class="mt-60">
                             @csrf
 
                             <div class="mb-3">
@@ -27,7 +27,7 @@
                                     </div> -->
                             <div class="mb-3">
                                 <input type="email" placeholder="E-mailová adresa:" class="form-control para" id="email"
-                                    name="email" id="email" value="{{ old('email') }}">
+                                    name="email"  value="{{ old('email') }}">
                                 <p class="text-danger d-none" id="emailError"></p>
 
                             </div>
@@ -132,10 +132,10 @@
                 valid = false;
             }
 
-            if (!$('#agree').is(':checked')) {
-                $('#agreeError').removeClass('d-none').text('You must agree to the terms.');
-                valid = false;
-            }
+            // if (!$('#agree').is(':checked')) {
+            //     $('#agreeError').removeClass('d-none').text('You must agree to the terms.');
+            //     valid = false;
+            // }
 
             if (valid) {
                 $('#contactForm').submit();

@@ -56,7 +56,7 @@ class HomeController extends Controller
 
          ContactUs::create($contact);
 
-          Mail::to('ashishyadav.avology@gmail.com')->send(new ContactMail($contact));
+          //Mail::to('ashishyadav.avology@gmail.com')->send(new ContactMail($contact));
        }
        return redirect()->back()->with('success','Your contact query sent successfully.');
     }
