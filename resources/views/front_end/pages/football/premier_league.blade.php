@@ -5,7 +5,7 @@
         <div class="container">
             <div class="scoccer-inner">
 
-                <h2>{{ date('Y') }} Saison </h2>
+                <h2>{{ date('Y') }} Sezóna </h2>
                 @if(Session::has('success'))
                     <span class="alert alert-success text-center" style="width:100%;">{{ Session::get('success') }}</span>
                     @elseif(Session::has('error'))

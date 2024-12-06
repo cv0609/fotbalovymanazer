@@ -12,7 +12,7 @@
                     </svg>
                 </a>
             </div>
-            <h2>{{ $matches[0]->league->name.' '.$matches[0]->league->year }} Saison </h2>
+            <h2>{{ $matches[0]->league->name.' '.$matches[0]->league->year }} Sezóna </h2>
 
             <div class="team-view-sec">
 

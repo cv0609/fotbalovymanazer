@@ -18,7 +18,7 @@ use Carbon\Carbon;
                     </svg>
                 </a>
             </div>
-            <h2>2023-24 Season </h2>
+            <h2>2023-24 Sezóna </h2>
 
             <div class="plyr-headr">
                 <div class="team-logo">
@@ -58,8 +58,8 @@ use Carbon\Carbon;
                             <table>
                                 <thead>
                                     <tr>
-                                        <th scope="col" class="">Sélectionné par</th>
-                                        <th scope="col">Équipe</th>
+                                        <th scope="col" class="">Vybráno uživatelem</th>
+                                        <th scope="col">Tým</th>
                                         <th scope="col">Stáří</th>
                                         <th scope="col">Ublížit</th>
                                     </tr>
@@ -282,7 +282,7 @@ use Carbon\Carbon;
                 </div>
             </div>
             <div class="team-btns">
-                <a href="{{ route('my-team') }}" class="next-btn">Suivant</a>
+                <a href="{{ route('my-team') }}" class="next-btn">Další</a>
             </div>
         </div>
     </div>
