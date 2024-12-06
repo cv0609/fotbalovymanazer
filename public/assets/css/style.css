@@ -2840,5 +2840,16 @@ td.match-score h4 {
 tr.matche-main {
     cursor: pointer;
 }
-
+.player-toggle {
+    border-radius: 50%;
+    background: transparent;
+    border: 2px solid;
+    width: 25px;
+    height: 25px;
+    line-height: 1;
+    border-color: #00c900 !important;
+}
+.form_rest .your-message {
+    height: 200px;
+}
 /* new css  end */

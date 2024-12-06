@@ -16,7 +16,7 @@
                                     @csrf
  
                                     <div class="mb-3">
-                                        <input type="text" placeholder="Křestní jméno" name="full_name"
+                                        <input type="text" placeholder="Jméno a příjmení:" name="full_name"
                                             class="form-control para" id="first_name" value="{{ old('full_name') }}">
                                     <p class="text-danger d-none" id="nameError"></p>
 
@@ -26,31 +26,23 @@
                                             id="Last_Name" value>
                                     </div> -->
                                     <div class="mb-3">
-                                        <input type="email" placeholder="Email" class="form-control para" id="email"
+                                        <input type="email" placeholder="E-mailová adresa:" class="form-control para" id="email"
                                             name="email" value="{{ old('email') }}">
                                             <p class="text-danger d-none" id="emailError"></p>
 
                                     </div>
+                                  
                                     <div class="mb-3">
-                                        <input type="text" placeholder="Telefonní číslo" class="form-control para"
-                                            id="phone_number" name="phone" value>
+                                        <input type="text" placeholder="Předmět zprávy:" class="form-control para"
+                                            id="message-subject" name="subject" value>
 
                                     </div>
                                     <div class="mb-3">
-                                        <div class="show_password">
-                                            <input type="password" placeholder="Heslo" class="form-control para"
-                                                id="password-field" name="password">
-                                            <i class="fas fa-eye toggle-password"></i>
-                                        </div>
+                                      <textarea placeholder="Vaše zpráva:" class="your-message"></textarea>
 
                                     </div>
-                                    <div class="mb-3">
-                                        <div class="show_password">
-                                            <input type="password" placeholder="Potvrďte heslo"
-                                                class="form-control para" id="confirm-password"
-                                                name="password_confirmation">
-                                        </div>
-                                    </div>
+                                 
+                                   
                                     <!-- <div class="g-recaptcha" data-sitekey="6LddY1MqAAAAAKlmrOJAthAVb6M3RpCXGIvs-gJa">
                                         <div style="width: 304px; height: 78px;">
                                             <div><iframe title="reCAPTCHA" width="304" height="78" role="presentation"
