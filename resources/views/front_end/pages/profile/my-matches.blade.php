@@ -30,7 +30,7 @@
                                 @php
                                     $points = $PointCalculationService->calculatePoints(Auth::user()->id,$match->fixture_id);
                                 @endphp
-                                <tr data-fixture-id="{{ $match->fixture_id ?? ''}}" data-league-id="{{ $match->league->league_id ?? ''}}">
+                                <tr class="matche-main" data-fixture-id="{{ $match->fixture_id ?? ''}}" data-league-id="{{ $match->league->league_id ?? ''}}">
                                     <td class="match-team-logo">
                                         <a href="">
                                             <!-- <div class="my-match-team-logo-inner my-match-team-logo-inner1"></div> -->

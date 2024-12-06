@@ -12,21 +12,23 @@
                         <div class="contact_left">
                             <h3 class="sec_title">Kontaktní formulář</h3>
                             <div class="form_rest">
-                                <form action="" method="POST" class="mt-60">
-
-                                    <input type="hidden" name="_token" value="" autocomplete="off">
-
+                                <form action="{{ route('contact.save') }}" method="POST" class="mt-60">
+                                    @csrf
+ 
                                     <div class="mb-3">
-                                        <input type="text" placeholder="Křestní jméno" name="name"
-                                            class="form-control para" id="first_name" value>
+                                        <input type="text" placeholder="Křestní jméno" name="full_name"
+                                            class="form-control para" id="first_name" value="{{ old('full_name') }}">
+                                    <p class="text-danger d-none" id="nameError"></p>
+
                                     </div>
-                                    <div class="mb-3">
+                                    <!-- <div class="mb-3">
                                         <input type="text" placeholder="Příjmení" name="lname" class="form-control para"
                                             id="Last_Name" value>
-                                    </div>
+                                    </div> -->
                                     <div class="mb-3">
                                         <input type="email" placeholder="Email" class="form-control para" id="email"
-                                            name="email" value>
+                                            name="email" value="{{ old('email') }}">
+                                            <p class="text-danger d-none" id="emailError"></p>
 
                                     </div>
                                     <div class="mb-3">
@@ -49,7 +51,7 @@
                                                 name="password_confirmation">
                                         </div>
                                     </div>
-                                    <div class="g-recaptcha" data-sitekey="6LddY1MqAAAAAKlmrOJAthAVb6M3RpCXGIvs-gJa">
+                                    <!-- <div class="g-recaptcha" data-sitekey="6LddY1MqAAAAAKlmrOJAthAVb6M3RpCXGIvs-gJa">
                                         <div style="width: 304px; height: 78px;">
                                             <div><iframe title="reCAPTCHA" width="304" height="78" role="presentation"
                                                     name="a-69crwsttqsnj" frameborder="0" scrolling="no"
@@ -59,7 +61,7 @@
                                                 class="g-recaptcha-response"
                                                 style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>
                                         </div><iframe style="display: none;"></iframe>
-                                    </div>
+                                    </div> -->
                                     <div class="mb-3">
                                         <div class="Submit-btn">
                                            <button class="btn">Předložit</button>
