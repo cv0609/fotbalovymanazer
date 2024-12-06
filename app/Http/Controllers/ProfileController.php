@@ -94,7 +94,7 @@ class ProfileController extends Controller
 
     public function updateProfilePic(Request $request)
     {
-         dd("ok");
+       
         $request->validate([
             'profile_picture' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048',
         ]);
@@ -102,6 +102,7 @@ class ProfileController extends Controller
         $user = Auth::user();
 
         if ($request->hasFile('profile_picture')) {
+            dd("OK");
             $file = $request->file('profile_picture');
             $filename = time() . '.' . $file->getClientOriginalExtension();
             $path = 'assets/images/'.$filename;
@@ -109,7 +110,6 @@ class ProfileController extends Controller
 
             // Update the user's profile picture in the database
             $user->image = $path;
-     
             $user->save();
         }
 
