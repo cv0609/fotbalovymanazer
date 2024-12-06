@@ -1828,7 +1828,7 @@ table tr:nth-child(odd):hover {
 
     width: 100%;
     overflow-x: auto;
-    border-radius: 14px;
+    /* border-radius: 14px; */
 }
 
 .scoccer-inner-content table th {
@@ -2871,5 +2871,11 @@ section.scoccer span.alert.alert-success {
 }
 .contact_wrapper span.alert.alert-success {
     color: #ff8498;
+}
+body .scoccer-inner-content {
+    border-radius: 0 !important;
+}
+.footer_wrapper ul {
+    padding-left: 0;
 }
 /* new css  end */

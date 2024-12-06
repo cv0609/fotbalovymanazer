@@ -65,16 +65,16 @@
               <h4 class="footer_title">Sociální odkaz</h4>
               <div class="footer_socialsWrapp">
                 <div class="footer_social">
-                  <a href="#" target="_blank" class="social_link social_link--fb"></a>
+                  <a href="#" target="_blank" class="social_link social_link-fb"></a>
                 </div>
                 <div class="footer_social">
-                  <a href="#" target="_blank" class="social_link social_link--inta"></a>
+                  <a href="#" target="_blank" class="social_link social_link-inta"></a>
                 </div>
                 <div class="footer_social">
-                  <a href="#"  target="_blank"class="social_link social_link--twitter"></a>
+                  <a href="#"  target="_blank"class="social_link social_link-twitter"></a>
                 </div>
                 <div class="footer_social">
-                  <a href="#"  target="_blank" class="social_link social_link--linkedin"></a>
+                  <a href="#"  target="_blank" class="social_link social_link-linkedin"></a>
                 </div>
               </div>
             </div> -->
