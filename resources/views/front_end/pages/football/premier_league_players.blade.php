@@ -73,11 +73,11 @@
                                             <p>{{ $def_player->name }}</p>
                                         </td>
                                         <td class="match-team-logo">
-                                            <a href="">
+                                            <div class="match-logo-img">
                                                 <!-- <div class="match-team-logo-inner  match-team-logo-inner1"></div> -->
                                                 <img src="{{$def_player->team_logo}}" alt="team-logo-2">
 
-                                            </a>
+                                            </div>
                                         </td>
 
                                         <td class="match-position">
@@ -90,7 +90,7 @@
                                                 <i class="fa fa-plus" aria-hidden="true"></i>
                                             </button>
                                             <button class="minus player-toggle d-none" data-event="minus">
-                                                <i class="fa fa-minus" aria-hidden="true"></i>
+                                            <i class="fa-solid fa-minus"></i>
                                             </button>
                                         </td>
                                     </tr>
@@ -124,11 +124,11 @@
                                             <p>{{ $st_player->name }}</p>
                                         </td>
                                         <td class="match-team-logo">
-                                            <a href="">
+                                            <div class="match-logo-img">
                                                 <!-- <div class="match-team-logo-inner match-team-logo-inner8"></div> -->
                                                 <img src="{{$st_player->team_logo}}" alt="team-logo-2">
 
-                                            </a>
+                                            </div>
                                         </td>
 
                                         <td class="match-position">
@@ -141,7 +141,7 @@
                                                 <i class="fa fa-plus" aria-hidden="true"></i>
                                             </button>
                                             <button class="minus player-toggle d-none" data-event="minus">
-                                                <i class="fa fa-minus" aria-hidden="true"></i>
+                                            <i class="fa-solid fa-minus"></i>
                                             </button>
                                         </td>
                                     </tr>
@@ -174,11 +174,11 @@
                                             <p>{{ $gk_player->name }}</p>
                                         </td>
                                         <td class="match-team-logo">
-                                            <a href="">
+                                            <div class="match-logo-img">
                                             <img src="{{$gk_player->team_logo}}" alt="team-logo-2">
 
                                                 <!-- <div class="match-team-logo-inner match-team-logo-inner15"></div> -->
-                                            </a>
+                                            </div>
                                         </td>
 
                                         <td class="match-position">
@@ -191,7 +191,7 @@
                                                 <i class="fa fa-plus" aria-hidden="true"></i>
                                             </button>
                                             <button class="minus player-toggle d-none" data-event="minus">
-                                                <i class="fa fa-minus" aria-hidden="true"></i>
+                                            <i class="fa-solid fa-minus"></i>
                                             </button>
                                         </td>
                                     </tr>
@@ -224,11 +224,11 @@
                                             <p>{{ $mid_player->name ?? '' }}</p>
                                         </td>
                                         <td class="match-team-logo">
-                                            <a href="">
+                                            <div class="match-logo-img">
                                                 <!-- <div class="match-team-logo-inner match-team-logo-inner15"></div> -->
                                                 <img src="{{$mid_player->team_logo ?? ''}}" alt="team-logo-2">
 
-                                            </a>
+                                            </div>
                                         </td>
 
                                         <td class="match-position">
@@ -241,7 +241,7 @@
                                                 <i class="fa fa-plus" aria-hidden="true"></i>
                                             </button>
                                             <button class="minus player-toggle d-none" data-event="minus">
-                                                <i class="fa fa-minus" aria-hidden="true"></i>
+                                            <i class="fa-solid fa-minus"></i>
                                             </button>
                                         </td>
                                     </tr>

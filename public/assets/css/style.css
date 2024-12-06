@@ -1998,6 +1998,8 @@ table tr {
     height: 25px;
     line-height: 1;
     right: 20px;
+    z-index: 99;
+    cursor: pointer;
 }
 
 .credits_points button.minus {
@@ -2722,5 +2724,11 @@ td.match-score h4 {
     }
     .Submit-btn{
       margin: 20px 0;
+    }
+    .d-none{
+        display: none;
+    }
+    .d-block{
+    display: block;
     }
 /* new css  end */
