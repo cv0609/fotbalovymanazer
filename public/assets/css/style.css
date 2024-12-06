@@ -2786,4 +2786,9 @@ td.match-score h4 {
     border-color: #00c900;
     text-transform: capitalize;
   }
+  .Submit-btn button:hover {
+    background-color: #ff849a;
+    color: #fff;
+    border-color: #ff849a;
+}
 /* new css  end */
