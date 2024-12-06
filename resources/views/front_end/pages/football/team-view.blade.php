@@ -48,19 +48,21 @@
                             </tr>
                         </thead>
                         <tbody class="tbody">
+                        @foreach($myTeam as $value)
+
                             <tr>
                                 <td class="player-dp">
-                                    <img src="assets/images/FC_Hradec_Kralove.png" alt="dp">
+                                <img src="{{ $value['team_logo'] }}" alt="dp">
+
                                 </td>
                                 <td>
-                                    <h6>Ladislav Krejčí</h6>
+                                    <h6>{{ $value['player_name'] }}</h6>
                                 </td>
                                 <td class="my-team-captain">
                                     <span class="c-logo">C</span>
 
 
-                                    <p class="team_captain" data-league_id=396 data-match_id=424864 data-team_id=775
-                                        data-player_id=3929 data-already_captain=>
+                                    <p class="team_captain" data-league_id = "{{ $value['league_id'] }}" data-match_id = "{{ $value['match_id'] }}" data-team_id = "{{ $value['team_id'] }}" data-player_id = "{{ $value['player_id'] }}" data-already_captain = "{{ $value['already_captain'] ?? '' }}">
                                         <button class="plus player-toggle captain-plus" data-event="cap_plus">
                                             <i class="fa fa-plus" aria-hidden="true"></i>
                                         </button>
@@ -71,8 +73,7 @@
                                 </td>
                                 <td class="my-team-vice-captain">
                                     <span class="c-logo">VC</span>
-                                    <p class="team_captain team_vice_captain" data-league_id=396 data-match_id=424864
-                                        data-team_id=775 data-player_id=3929>
+                                    <p class="team_captain team_vice_captain" data-league_id = "{{ $value['league_id'] }}" data-match_id = "{{ $value['match_id'] }}" data-team_id = "{{ $value['team_id'] }}" data-player_id = "{{ $value['player_id'] }}">
                                         <button class="plus player-toggle vice-cap-plus" data-event="vice_plus">
                                             <i class="fa fa-plus" aria-hidden="true"></i>
                                         </button>
@@ -84,6 +85,7 @@
 
                                 </td>
                             </tr>
+                        @endforeach    
                         </tbody>
                     </table>
                 </div>
