@@ -11,6 +11,9 @@
                 </div>
                 <div class="contact_left">
                     <h3 class="sec_title">Kontaktní formulář</h3>
+                    @if(Session::has('success'))
+                        <span class="alert alert-success text-center" style="width:100%;">{{ Session::get('success') }}</span>
+                    @endif
                     <div class="form_rest">
                         <form action="{{ route('contact.save') }}" method="post" id="contactForm" class="mt-60">
                             @csrf
