@@ -1795,6 +1795,7 @@ td.match-status p {
 .leagues-table td h6 {
     font-weight: 400;
     color: #000000;
+    font-size: 15px;
 }
 
 .leagues-table td {
@@ -2790,5 +2791,13 @@ td.match-score h4 {
     background-color: #ff849a;
     color: #fff;
     border-color: #ff849a;
+}
+.login .container .form_rest form button[type=submit]:hover {
+    background-color: #ff849a;
+}
+.league-logo img {
+    width: 40px;
+    aspect-ratio: 1;
+    object-fit: contain;
 }
 /* new css  end */
