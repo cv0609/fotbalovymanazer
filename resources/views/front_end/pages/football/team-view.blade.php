@@ -90,7 +90,7 @@
                     </table>
                 </div>
                 <div class="team-btns">
-                    <a href="#" id="save-team-btn" class="next-btn">Sauvegarder</a>
+                    <a href="#" id="save-team-btn" class="next-btn">Uložit</a>
                 </div>
             </div>
         </div>
@@ -105,7 +105,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
-                        <i class="fa-solid fa-x"></i>
+                        <!-- <i class="fa-solid fa-x"></i> -->
                     </button>
                 </div>
                 <div class="modal-body">
@@ -135,7 +135,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
-                        <i class="fa-solid fa-x"></i>
+                        <!-- <i class="fa-solid fa-x"></i> -->
                     </button>
                 </div>
                 <div class="modal-body">
@@ -165,7 +165,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
-                        <i class="fa-solid fa-x"></i>
+                        <!-- <i class="fa-solid fa-x"></i> -->
                     </button>
                 </div>
                 <div class="modal-body">

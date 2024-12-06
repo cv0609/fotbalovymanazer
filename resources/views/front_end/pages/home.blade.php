@@ -61,7 +61,6 @@
                         </form>
                     </div>
                     <div class="singup_btm">
-                        <p>Insert email signup here with the following text</p>
                         <p>“Přihlaste se k odběru novinek Fotbalový Manažer!</p>
                         <p>
                             Získejte exkluzivní tipy, aktuální statistiky, a speciální

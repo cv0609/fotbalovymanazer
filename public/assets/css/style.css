@@ -2856,4 +2856,19 @@ tr.matche-main {
 .form_rest .your-message {
     height: 200px;
 }
+section.scoccer span.alert.alert-success {
+    text-align: center;
+    width: fit-content;
+    display: block;
+    color: #ffffff;
+}
+/* .matches-details.scoccer .team-logo, .matches-details.scoccer .match-details, .matches-details.scoccer .team-logo {
+    cursor: pointer;
+} */
+.form_rest span.alert.alert-success {
+    display: block;
+}
+.contact_wrapper span.alert.alert-success {
+    color: #ff8498;
+}
 /* new css  end */
