@@ -1998,7 +1998,7 @@ table tr {
     height: 25px;
     line-height: 1;
     right: 20px;
-    z-index: 99;
+    z-index: 1;
     cursor: pointer;
 }
 
