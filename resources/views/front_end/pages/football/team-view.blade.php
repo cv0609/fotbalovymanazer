@@ -5,31 +5,31 @@
     <div class="container">
         <div class="scoccer-inner">
             <div class="back-btn">
-                <a href="premier-league-players">
+                <a href="matches-details">
                     <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
                         fill="#fff">
                         <path d="M360-240 120-480l240-240 56 56-144 144h568v80H272l144 144-56 56Z"></path>
                     </svg>
                 </a>
             </div>
-            <h2>2023-24 Season </h2>
+            <h2>2024 Saison</h2>
 
             <div class="team-view-sec">
                 <div class="team-view-header">
-                    <h4>Vyberte si svého kapitána a zástupce kapitána</h4>
+                    <h4>Choisissez votre capitaine et votre vice-capitaine</h4>
                     <ul>
                         <li>
                             <span class="c-logo"> C </span>
                             <div class="c-details">
-                                <h6>Kapitán dostane</h6>
-                                <p>2X (dvojité body)</p>
+                                <h6>Le capitaine obtient</h6>
+                                <p>2X (Points doublés)</p>
                             </div>
                         </li>
                         <li>
                             <span class="c-logo"> VC </span>
                             <div class="c-details">
-                                <h6>Zástupce kapitána dostane</h6>
-                                <p>1,5X (dvojité body)</p>
+                                <h6> Le vice-capitaine obtient</h6>
+                                <p>1.5X (Points doublés)</p>
                             </div>
                         </li>
                     </ul>
@@ -40,127 +40,150 @@
                     <table>
                         <thead>
                             <tr>
-                                <th scope="col">Hráč</th>
-                                <th scope="col">Body</th>
+                                <th scope="col"></th>
+                                <th scope="col">Points</th>
                                 <th scope="col">% C PAR</th>
                                 <th scope="col">% VC PAR</th>
 
                             </tr>
                         </thead>
-                        <tbody>
+                        <tbody class="tbody">
                             <tr>
                                 <td class="player-dp">
-                                    <div class="player-dp-inner player-dp-inner1"></div>
+                                    <img src="assets/images/FC_Hradec_Kralove.png" alt="dp">
                                 </td>
                                 <td>
-                                    <h6>Blaise Rogeau</h6>
-                                    <span>41 Pt</span>
+                                    <h6>Ladislav Krejčí</h6>
                                 </td>
-                                <td>
+                                <td class="my-team-captain">
                                     <span class="c-logo">C</span>
-                                    <p>0.55%</p>
+
+
+                                    <p class="team_captain" data-league_id=396 data-match_id=424864 data-team_id=775
+                                        data-player_id=3929 data-already_captain=>
+                                        <button class="plus player-toggle captain-plus" data-event="cap_plus">
+                                            <i class="fa fa-plus" aria-hidden="true"></i>
+                                        </button>
+                                        <button class="minus player-toggle d-none captain-minus" data-event="cap_minus">
+                                            <i class="fa fa-minus" aria-hidden="true"></i>
+                                        </button>
+                                    </p>
                                 </td>
-                                <td>
+                                <td class="my-team-vice-captain">
                                     <span class="c-logo">VC</span>
-                                    <p>0.37%</p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="player-dp">
-                                    <div class="player-dp-inner player-dp-inner2"></div>
-                                </td>
-                                <td>
-                                    <h6>Blaise Rogeau</h6>
-                                    <span>41 Pt</span>
-                                </td>
-                                <td>
-                                    <span class="c-logo">C</span>
-                                    <p>0.55%</p>
-                                </td>
-                                <td>
-                                    <span class="c-logo">VC</span>
-                                    <p>0.37%</p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="player-dp">
-                                    <div class="player-dp-inner player-dp-inner3"></div>
-                                </td>
-                                <td>
-                                    <h6>Blaise Rogeau</h6>
-                                    <span>41 Pt</span>
-                                </td>
-                                <td>
-                                    <span class="c-logo">C</span>
-                                    <p>0.55%</p>
-                                </td>
-                                <td>
-                                    <span class="c-logo">VC</span>
-                                    <p>0.37%</p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="player-dp">
-                                    <div class="player-dp-inner player-dp-inner4"></div>
-                                </td>
-                                <td>
-                                    <h6>Blaise Rogeau</h6>
-                                    <span>41 Pt</span>
-                                </td>
-                                <td>
-                                    <span class="c-logo">C</span>
-                                    <p>0.55%</p>
-                                </td>
-                                <td>
-                                    <span class="c-logo">VC</span>
-                                    <p>0.37%</p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="player-dp">
-                                    <div class="player-dp-inner player-dp-inner5"></div>
-                                </td>
-                                <td>
-                                    <h6>Blaise Rogeau</h6>
-                                    <span>41 Pt</span>
-                                </td>
-                                <td>
-                                    <span class="c-logo">C</span>
-                                    <p>0.55%</p>
-                                </td>
-                                <td>
-                                    <span class="c-logo">VC</span>
-                                    <p>0.37%</p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="player-dp">
-                                    <div class="player-dp-inner player-dp-inner6"></div>
-                                </td>
-                                <td>
-                                    <h6>Blaise Rogeau</h6>
-                                    <span>41 Pt</span>
-                                </td>
-                                <td>
-                                    <span class="c-logo">C</span>
-                                    <p>0.55%</p>
-                                </td>
-                                <td>
-                                    <span class="c-logo">VC</span>
-                                    <p>0.37%</p>
+                                    <p class="team_captain team_vice_captain" data-league_id=396 data-match_id=424864
+                                        data-team_id=775 data-player_id=3929>
+                                        <button class="plus player-toggle vice-cap-plus" data-event="vice_plus">
+                                            <i class="fa fa-plus" aria-hidden="true"></i>
+                                        </button>
+                                        <button class="minus player-toggle d-none vice-cap-minus"
+                                            data-event="vice_minus">
+                                            <i class="fa fa-minus" aria-hidden="true"></i>
+                                        </button>
+                                    </p>
+
                                 </td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
                 <div class="team-btns">
-                    <a href="#" class="next-btn">K ochraně</a>
+                    <a href="#" id="save-team-btn" class="next-btn">Sauvegarder</a>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<!-- Leagues Content Section End -->
+
+
+<!-- alert-msg popup start -->
+<div class="alert-msg">
+    <div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                        <i class="fa-solid fa-x"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                            fill="#00c900">
+                            <path
+                                d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q65 0 123 19t107 53l-58 59q-38-24-81-37.5T480-800q-133 0-226.5 93.5T160-480q0 133 93.5 226.5T480-160q133 0 226.5-93.5T800-480q0-18-2-36t-6-35l65-65q11 32 17 66t6 70q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm-56-216L254-466l56-56 114 114 400-401 56 56-456 457Z" />
+                            </svg>
+                    </span>
+                    <h4 id="success-message"></h4>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">ok</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- alert-msg popup end -->
+
+
+<!-- alert-msg popup start -->
+<div class="alert-msg">
+    <div class="modal fade" id="capModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                        <i class="fa-solid fa-x"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                            fill="#d30f0f">
+                            <path
+                                d="M480-280q17 0 28.5-11.5T520-320q0-17-11.5-28.5T480-360q-17 0-28.5 11.5T440-320q0 17 11.5 28.5T480-280Zm-40-160h80v-240h-80v240Zm40 360q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+                            </svg>
+                    </span>
+                    <h4 id="cap-message"></h4>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" id="cap-ok" data-bs-dismiss="modal">ok</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- alert-msg popup end -->
+
+
+<!-- alert- login msg popup start -->
+<div class="alert-msg">
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                        <i class="fa-solid fa-x"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                            fill="#d30f0f">
+                            <path
+                                d="M480-280q17 0 28.5-11.5T520-320q0-17-11.5-28.5T480-360q-17 0-28.5 11.5T440-320q0 17 11.5 28.5T480-280Zm-40-160h80v-240h-80v240Zm40 360q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+                            </svg>
+                    </span>
+                    <h4 id="login-message"></h4>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="login-click" class="btn btn-secondary"
+                        data-bs-dismiss="modal">Login</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 @endsection
 
 @section('custom-script')

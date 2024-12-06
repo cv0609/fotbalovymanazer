@@ -100,8 +100,8 @@ class ProfileController extends Controller
         ]);
 
         $user = Auth::user();
-
-        if ($request->hasFile('profile_picture')) {
+    
+        if ($request->file('profile_picture')) {
             $file = $request->file('profile_picture');
             $filename = time() . '.' . $file->getClientOriginalExtension();
             $path = 'assets/images/'.$filename;
@@ -109,7 +109,6 @@ class ProfileController extends Controller
 
             // Update the user's profile picture in the database
             $user->image = $path;
-     
             $user->save();
         }
 

@@ -4,8 +4,7 @@
             <div class="update_img_user">
             <img src="{{(!empty(Auth::user()->image)) ? asset(Auth::user()->image) : asset('assets/images/dummy.jpg') }}" alt="user_img">
 
-                <form id="profile-pic-form"
-                    aaction="{{ route('profile.update-pic') }}" method="POST" enctype="multipart/form-data">
+            <form id="profile-pic-form" action="{{ route('profile.update-pic') }}" method="POST" enctype="multipart/form-data">
                     @csrf
                     <input type="file" id="profile-pic-input" name="profile_picture" style="display: none;"
                         accept="image/*" onchange="document.getElementById('profile-pic-form').submit()">

@@ -282,7 +282,7 @@ use Carbon\Carbon;
                 </div>
             </div>
             <div class="team-btns">
-                <a href="my-team" class="next-btn">Suivant</a>
+                <a href="{{ route('my-team') }}" class="next-btn">Suivant</a>
             </div>
         </div>
     </div>
