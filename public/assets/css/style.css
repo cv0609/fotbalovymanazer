@@ -162,6 +162,7 @@ textarea::placeholder {
   justify-content: space-between;
   align-items: center;
   padding-block: 12px;
+  margin-bottom: 0;
 }
 
 .header_item {
@@ -2807,5 +2808,16 @@ td.match-score h4 {
     width: 40px;
     aspect-ratio: 1;
     object-fit: contain;
+}
+
+.alert.alert-danger {
+    padding: 0;
+    border: none;
+    background: transparent;
+}
+.alert.alert-success {
+    padding: 0;
+    border: none;
+    background: transparent;
 }
 /* new css  end */
