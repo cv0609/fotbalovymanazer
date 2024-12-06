@@ -94,6 +94,7 @@ class ProfileController extends Controller
 
     public function updateProfilePic(Request $request)
     {
+       
         $request->validate([
             'profile_picture' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048',
         ]);
@@ -108,6 +109,7 @@ class ProfileController extends Controller
 
             // Update the user's profile picture in the database
             $user->image = $path;
+     
             $user->save();
         }
 

@@ -37,7 +37,10 @@
                 <div class="avatar">
                     <div class="avatar-content">
                         <a href="#">
-                            <div class="profile-image"></div>
+                            <div class="profile-image">
+                            <img src="{{(!empty(Auth::user()->image)) ? asset(Auth::user()->image) : asset('assets/images/dummy.jpg') }}" alt="dp">
+
+                            </div>
                             <span>{{ ucfirst(Auth::user()->first_name.' '.Auth::user()->last_name) }}</span>
                         </a>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">

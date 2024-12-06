@@ -2222,7 +2222,7 @@ section.my-profile {
 }
 
 .update_img_user {
-    position: relative;
+    /* position: relative;
     width: 80px;
     margin: 0 auto;
     height: 80px;
@@ -2230,9 +2230,17 @@ section.my-profile {
     border: 3px solid #000;
     background-image: url("../images/my-profile-dummy-img.png");
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
+    position: relative;
+    width: 80px;
+    margin: 0 auto;
 }
-
+.update_img_user img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
 .edit_pan svg {
     height: 12px;
 }
@@ -2738,7 +2746,7 @@ td.match-score h4 {
         margin-bottom: 15px;
     }
 
-    /* alert-msg modal  */
+   /* alert-msg modal  */
 
 .alert-msg .modal-footer {
     justify-content: center;
