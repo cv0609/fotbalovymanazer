@@ -162,6 +162,7 @@ textarea::placeholder {
   justify-content: space-between;
   align-items: center;
   padding-block: 12px;
+  margin-bottom: 0;
 }
 
 .header_item {
@@ -2222,7 +2223,7 @@ section.my-profile {
 }
 
 .update_img_user {
-    position: relative;
+    /* position: relative;
     width: 80px;
     margin: 0 auto;
     height: 80px;
@@ -2230,9 +2231,17 @@ section.my-profile {
     border: 3px solid #000;
     background-image: url("../images/my-profile-dummy-img.png");
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
+    position: relative;
+    width: 80px;
+    margin: 0 auto;
 }
-
+.update_img_user img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
 .edit_pan svg {
     height: 12px;
 }
@@ -2787,10 +2796,6 @@ td.match-score h4 {
     border-color: #00c900;
     text-transform: capitalize;
   }
-<<<<<<< HEAD
-  
-  /*  */
-=======
   .Submit-btn button:hover {
     background-color: #ff849a;
     color: #fff;
@@ -2804,5 +2809,15 @@ td.match-score h4 {
     aspect-ratio: 1;
     object-fit: contain;
 }
+
+.alert.alert-danger {
+    padding: 0;
+    border: none;
+    background: transparent;
+}
+.alert.alert-success {
+    padding: 0;
+    border: none;
+    background: transparent;
+}
 /* new css  end */
->>>>>>> bda5b27a27a0e9161c77db069a40f74043eefaec

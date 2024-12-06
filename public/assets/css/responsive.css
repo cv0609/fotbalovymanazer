@@ -492,10 +492,18 @@ section.choose {
   width: 45%;
 }
 
+.profile-side {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+.col-sec {
+  width: 100%;
+}
 
-
-
-
+.mmy-profile-inner {
+  flex-wrap: wrap;
+}
 
 
 
