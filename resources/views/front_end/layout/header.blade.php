@@ -11,7 +11,7 @@
                   <a href="{{ route('home') }}" class="header_link {{ Route::currentRouteName() == 'home' ? 'active' : '' }}">Domovská Stránka</a>
                 </li>
                 <li class="header_item">
-                  <a href="{{ route('how.to.play') }}" class="header_link {{ Route::currentRouteName() == 'home' ? 'active' : '' }}">Jak Hrát </a>
+                  <a href="{{ route('how.to.play') }}" class="header_link {{ Route::currentRouteName() == 'how.to.play' ? 'active' : '' }}">Jak Hrát </a>
                 </li>
                 <li class="header_item">
                   <a href="{{ route('about.us') }}" class="header_link {{ Route::currentRouteName() == 'about.us' ? 'active' : '' }}">O nás </a>

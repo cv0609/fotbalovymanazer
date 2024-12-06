@@ -34,6 +34,10 @@ class HomeController extends Controller
     {
        return view('front_end.pages.contact');
     }
+    public function personalData()
+    {
+       return view('front_end.pages.personal-data');
+    }
 
     public function contactSave(ContactRequest $request){
        $full_name = $request->full_name ?? '';
