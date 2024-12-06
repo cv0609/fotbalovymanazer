@@ -17,7 +17,7 @@
                 </div>
                 <div class="scoccer-inner-content">
                     <div class="leagues-table">
-                        <table>
+                        <table id="myTable">
                             <thead>
                                 <tr>
                                     <th scope="col"></th>
