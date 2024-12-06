@@ -2737,7 +2737,7 @@ td.match-score h4 {
         margin-bottom: 15px;
     }
 
-    /* alert-msg modal  */
+   /* alert-msg modal  */
 
 .alert-msg .modal-footer {
     justify-content: center;
@@ -2786,4 +2786,5 @@ td.match-score h4 {
     border-color: #00c900;
     text-transform: capitalize;
   }
-/* new css  end */
+  
+  /*  */

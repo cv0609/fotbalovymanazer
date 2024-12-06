@@ -65,7 +65,7 @@ Route::middleware('auth')->group(function () {
 
     Route::get('/save-team', [FootballController::class, 'saveTeam'])->name('save-team');
     Route::prefix('profile')->group(function () {
-        Route::get('/my-profile', [ProfileController::class, 'myProfile'])->name('profile.profile');
+        Route::match(['get', 'post'],'/my-profile', [ProfileController::class, 'myProfile'])->name('profile.profile');
         Route::post('/update-profile', [ProfileController::class, 'updateProfile'])->name('profile.update');
         Route::get('/change-password', [ProfileController::class, 'changePassword'])->name('profile.change.password');
         Route::post('/update-password', [ProfileController::class, 'updatePassword'])->name('profile.update.password');
